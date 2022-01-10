@@ -1,0 +1,233 @@
+body{
+	background-color:  green;
+}
+
+div.d1,div.d2,div.d3,div.d4,div.d5{
+width: 100px;
+height: 210px;
+border: 4px solid #000000;
+size: 30px;
+position: absolute;
+border-radius: 10px;
+left: 100px;
+}
+
+div.d1{
+ color: red;
+ z-index: -5; 
+ background-color: white;
+ left:  75px;
+ transform: rotate(-35deg);
+ animation-name: uno;
+ animation-duration: 4s;
+ animation-delay: 1s;
+}
+@keyframes uno {
+  0%   {left:0px; top:0px;}
+  25%  {left:100px; top:0px;}
+  50%  {left:100px; top:100px;}
+  75%  {left:0px; top:100px;}
+  100% {:0px; top:0px;}
+}
+
+div.numeropalo1{
+	font-size: 20px;
+}
+
+div.numeropalo1_i{
+	font-size: 20px;
+	transform: rotate(180deg);
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+div.figura{
+	position: absolute;
+	font-size: 30px;
+}
+#Diamante1{
+	 left: 35px;
+	 top: 70px;
+	 font-size: 50px;
+}
+
+
+div.d2{
+	color: black;
+	z-index: -4;
+	background-color: white;
+  left:  85px;
+	transform: rotate(-25deg);  
+	animation-name: dos;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-direction: reverse;
+}
+
+@keyframes dos {
+  0%   {left:0px; top:0px;}
+  25%  {left:200px; top:0px;}
+  50%  {left:200px; top:200px;}
+  75%  {left:0px; top:200px;}
+  100% {:0px; top:0px;}
+}
+
+div.numeropalo2{
+	font-size: 20px;
+}
+
+div.numeropalo2_i{
+	font-size: 20px;
+	transform: rotate(180deg);
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+
+#Pica1{
+	 left: 35px;
+	 top: 70px;
+	 font-size: 50px;
+}
+#Pica2{
+	 left: 35px;
+	 top: 70px;
+	 font-size: 50px;
+}
+#Pica3{
+	 left: 35px;
+	 top: 70px;
+	 font-size: 50px;
+}
+#Pica4{
+	 left: 35px;
+	 top: 70px;
+	 font-size: 50px;
+} 
+div.d3{
+	color: red;
+	z-index: -3; 
+	background-color: white;
+  transform: rotate(-10deg);
+  left:  105px;
+  animation-name: tres;
+  animation-duration: 4s;
+  animation-delay: 3s;
+  animation-direction: alternate;
+}
+
+@keyframes tres {
+  0%   {left:0px; top:0px;}
+  25%  {left:300px; top:0px;}
+  50%  {left:300px; top:300px;}
+  75%  {left:0px; top:300px;}
+  100% {:0px; top:0px;}
+}
+
+div.numeropalo3{
+	font-size: 20px;
+}
+
+div.numeropalo3_i{
+	font-size: 20px;
+	transform: rotate(180deg);
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+#Corazon1{
+	 left: 35px;
+	 top: 70px;
+	 font-size: 50px;
+}
+#Corazon2{
+	 left: 35px;
+	 top: 70px;
+	 font-size: 50px;
+}
+#Corazon3{
+	 left: 35px;
+	 top: 70px;
+	 font-size: 50px;
+}
+#Corazon4{
+	 left: 35px;
+	 top: 70px;
+	 font-size: 50px;
+}
+#Corazon5{
+	 left: 35px;
+	 top: 70px;
+	 font-size: 50px;
+}
+#Corazon6{
+	 left: 35px;
+	 top: 70px;
+	 font-size: 50px;
+}
+div.d4{
+	color: black;
+	z-index: -2; 
+	background-color: white;	   
+	transform:  rotate(10deg);   
+	left:  125px;
+	animation-name: cuatro;
+  animation-duration: 4s;
+  animation-delay: 4s;
+  animation-direction: alternate-reverse;
+}
+  
+@keyframes cuatro {
+  0%   {left:0px; top:0px;}
+  25%  {left:400px; top:0px;}
+  50%  {left:400px; top:400px;}
+  75%  {left:0px; top:400px;}
+  100% {:0px; top:0px;}
+}
+
+div.numeropalo4{
+	font-size: 20px;
+}
+
+div.numeropalo4_i{
+	font-size: 20px;
+	transform: rotate(180deg);
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+#Trebol1{
+	 left: 35px;
+	 top: 70px;
+	 font-size: 50px;
+}
+#Trebol2{
+	 left: 35px;
+	 top: 70px;
+	 font-size: 50px;
+}
+#Trebol3{
+	 left: 35px;
+	 top: 70px;
+	 font-size: 50px;
+}
+#Trebol4{
+	 left: 35px;
+	 top: 70px;
+	 font-size: 50px;
+}
+#Trebol5{
+	 left: 35px;
+	 top: 70px;
+	 font-size: 50px;
+}
+#Trebol6{
+	 left: 35px;
+	 top: 70px;
+	 font-size: 50px;
+}
+#Trebol7{
+	 left: 35px;
+	 top: 70px;
+	 font-size: 50px;
+}
